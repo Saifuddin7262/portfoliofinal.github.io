@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src = "portfilio1.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" type="text/css">
+    <link rel="stylesheet" href="portfolio1.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+    body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+    .w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+    .w3-third img:hover{opacity: 1}
+    </style>
+    </head><body class="w3-light-grey w3-content" style="max-width:1600px">
+    
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center scroll" style="z-index: 3; width: 300px; font-weight: bold; display: none;" id="mySidebar"><br>
+      <h3 class="w3-padding-64 w3-center animation"><b>SAIFUDDIN</b></h3>
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large animation">CLOSE</a>
+      <a href="#" onclick="w3_close()" class="w3-bar-item w3-button animation">PORTFOLIO</a> 
+      <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button animation">ABOUT ME</a> 
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button animation">CONTACT</a>
+    </nav>
+    
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+      <span class="w3-left w3-padding animation1">SAIFUDDIN</span>
+      <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+    </header>
+    
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor: pointer; display: none;" title="close side menu" id="myOverlay"></div>
+    
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+    
+      <!-- Push down content on small screens --> 
+      <div class="w3-hide-large" style="margin-top:83px"></div>
+      
+      <!-- Photo grid -->
+      <div class="w3-row">
+        <div class="w3-third">
+          <img src="https://lh3.googleusercontent.com/pw/ACtC-3fQHuB79sYXeCj-2guCmg7yH7LO1KRHewmMBzIZgThFEgLZZXxzZXbVKCIsQ1p98t3-3ZKcQcwrr12RD4rEzopU69RArXW82Cfm7S2tNLsGoeJFl7KL9MY5tfgJyrrST4dSLTH1A2rsfRB1agfHNCzS=w417-h625-no?authuser=0" style="width:100%" onclick="onClick(this)" alt="A boy in Taj Mahal">
+          <img src="https://lh3.googleusercontent.com/pw/ACtC-3dcny3zK4QVGvZpJeDDkWtuEOae_RlOKuusSFy4ZxyA8v8V5uf2rveD5HKCRRJJdxDIrOIX0f3t0ONIXU_jHRGOVmy_sGnvCf5hNjel4zm5WS8DeCt9LBQ7eI6cg7X4ZC0zGByWBpJe4FOT6-125o5k=w469-h625-no?authuser=0" style="width:100%" onclick="onClick(this)" alt="A boy on a river side">
+          <img src="https://lh3.googleusercontent.com/pw/ACtC-3enitWzwxBr7Uf3VxG-F2DiQWY1ywOrhwhCYG1eLgNiZij_5mhBUCscFmUOVSVxm0gDcVH8qV7RpGvXgAvmH8zu79Wx3AqAjADHSZfLphLRnhse1Wrkz6Q3dkdnZR0yfJDrA8UpHP9RNbq8xoWfg0Du=w472-h625-no?authuser=0" style="width:100%" onclick="onClick(this)" alt="Indian flag">
+        </div>
+    
+        <div class="w3-third">
+          <img src="https://lh3.googleusercontent.com/pw/ACtC-3dkhqX0rsptjzAxhvfTTNOfOLuIs_Zc2GaTi5QNwAEyrwbNE12mIc1NkksTgcYn-auwBNkuoLHQap9OJo2YiU1uy4mOXtrCBhpCttFdBUGJbobLqkQyKNq9QiGhzcMaBB2nFBT0hwoYSAvQQTyDcSNo=w419-h625-no?authuser=0" style="width:100% " onclick="onClick(this)" alt="A Man over a bridge">
+          <img src="https://lh3.googleusercontent.com/pw/ACtC-3dAnSu84dlyxuceddq_DN5Q5114NJkHkZCurYWirR4DAhbT-imDMqPw2iT2ZyAlgovD0wsVjCqUxYWodgQqlXMMyWFYP4bUOsXkqjxHx7OBiX7G9SlAbG_LBLm2oPg09tfoBw2f6TlW6XtQyvkYn38J=w469-h625-no?authuser=0" style="width:100%" onclick="onClick(this)" alt="A Man walking on a road ">
+          <img src="https://lh3.googleusercontent.com/pw/ACtC-3c2PEU8xJFpHUJT5lcZp6OJTa3-n8fMVbZFN0DfpdOp5fziREBVJ8PCMValFMB09pLt20F3lvosPNcyETpBosXZ5t5Yfj9iICsAvAh7bRrOEJnue5yLroZpFW45T9RAD5geZa0xaotal_YXEHDRbrbQ=w469-h625-no?authuser=0" style="width:100%" onclick="onClick(this)" alt="River again !!">
+        </div>
+        
+        <div class="w3-third">
+          <img src="https://lh3.googleusercontent.com/pw/ACtC-3fPvOeOXqFcyQ6NFjKhIXdjRyVVsPxZcy-6Ok2DxbdYSctoZ5ytZX8RvKvrNoPlU8JLcceEY3oZ-2U6v7GRiY6T54g3t_iqD243ClTCzmb6MkpFU5o7wIkTH9_QHhpVHy43gZFnM4rWN1Zqp6f318fm=w417-h625-no?authuser=0" style="width:100%" onclick="onClick(this)" alt="A boy in beach">
+          <img src="https://lh3.googleusercontent.com/pw/ACtC-3ffkQt6Cs1psLEzDoO6gflAJo8oNntGW_OeUKvpykl7PPdn4UeIllt0LZWViSjcgJsQ-2BQppMhqBRWDRCNETzI3UZqCSrax4Kyv6kax2SovPpXWecPFY9qjALbef9OLf74I0eaLCF4jpgjVeN-Tlpg=w469-h625-no?authuser=0" style="width:100%" onclick="onClick(this)" alt="Mountains!! What a beauty">
+          <img src="https://lh3.googleusercontent.com/pw/ACtC-3esOHZBVtl3Ct_3I3tO_XVDc7grL11D3T5L1DNTZ8zN0AxxDzVlgAYC14_vSiJ9hHRrftZuU0AEjTf1SuaBXnoLD6ZFYjmwvvRC9OyMJlwkqg1HaquxtfO92lk1SLhZnBSnpazd9JNIIrhGOhdql8sE=w469-h625-no?authuser=0" style="width:100%" onclick="onClick(this)" alt="What a beautiful day!">
+        </div>
+      </div>
+    
+      <!-- Pagination -->
+      <div class="w3-center w3-padding-32">
+        <div class="w3-bar">
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+          <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+        </div>
+      </div>
+      
+      <!-- Modal for full size images on click-->
+      <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+        <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+          <img id="img01" class="w3-image" src="#" alt="My image">
+          <p id="caption"></p>
+        </div>
+      </div>
+    
+      <!-- About section -->
+      <div class="parallax"></div>
+      <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+        <h4><b>About Me</b></h4>
+        <div id="myCarousel" class="carousel slide modify" data-interval="false" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+        
+          <div class="carousel-inner ">
+            <div class="item active">
+              <img src="https://lh3.googleusercontent.com/pw/ACtC-3fY_js88QU1MUz7q0yh_vSHLY_dbVnV6am4lJsBII6hsTFSwru8Y2FHDuRn9C0gGuC-IDh4dSLjW0wjxoww80VgBE9_28stTb345-BN4ald_lSOH0p9NB2Yf2-zSYZ55HXZzj4xyoZlLgn2t3NDNT2l=s625-no?authuser=0" alt="Saifu" style="width:100%;">
+            </div>
+        
+            <div class="item">
+              <img src="https://lh3.googleusercontent.com/pw/ACtC-3fRlNYI6oQqG496Daoi-5LpYTjaOhLhpfmZdHJ_C5Tp0ipdrozqbTzh43taalmvobWuDwweoGyhiRkh-NZwdhJy_tMhY_S--zJyX6TrbY-Yy4ng5fZ5j13xYmFVgWwLRs8olHAESCaqBjHomfJZEoAO=s625-no?authuser=0" alt="jama masjid" style="width:100%;">
+            </div>
+        
+            <div class="item">
+              <img src="https://lh3.googleusercontent.com/pw/ACtC-3dZcgZo5T_j9dmoEKcXGKhFZDrqiP1Za8XLKWUjpEDgFn6gX4kc4ExMXFRbd9aFaB4XEYlVdzemgrcHhQyr64tFtk8s_98seATtK9W4bwULGTzzftWiHZGjMEe3OXau8jWVZPr6IRv2rP3Lr_oVE3fq=s625-no?authuser=0" alt="Waterfall" style="width:100%;">
+            </div>
+          </div>
+        
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="w3-content w3-justify" style="max-width:600px">
+          <h4 class="skill">Saifuddin</h4>
+          <p>Myself  B.Tech graduated young man from India, preparing my own portfolio Website for an online course "Web design for Everybody Capstone" by Coursera. This specialization course was very useful , because I didn't had any basic knowledge in Web Designing but now I'm able to design my own portfolio. Let me express my sincere gratitude to Colleen van Lent for all the help and effort that she had made throughout the course.
+          </p>
+          <hr class="w3-opacity">
+          <h4 class="w3-padding-16 skill">Technical Skills</h4>
+          <p class="w3-wide">C Programming</p>
+          <div class="w3-white">
+            <div class="w3-container w3-padding-small w3-center w3-grey" style="width:85%">85%</div>
+          </div>
+          <p class="w3-wide padding">Web Design</p>
+          <div class="w3-white">
+            <div class="w3-container w3-padding-small w3-center w3-grey" style="width:90%">90%</div>
+          </div>
+          <p class="w3-wide padding">Visual Studio Code</p>
+          <div class="w3-white">
+            <div class="w3-container w3-padding-small w3-center w3-grey" style="width:80%">80%</div>
+          </div>
+  
+        </div>
+      </div>
+    
+      <!-- Contact section -->
+      <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+        <div class="w3-content" style="max-width:600px">
+          <h4 class="w3-center"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24 " style="margin:0 -16px ">
+    <div class="w3-third w3-dark-grey line">
+      <p><i class="w3-text-light-grey"></i></p>
+      <p>seyyunas@gmail.com</p>
+    </div>
+    <div class="w3-third w3-teal line">
+      <p><i class="w3-text-light-grey"></i></p>
+      <p>9895517262</p>
+    </div>
+    <div class="w3-third w3-dark-grey line teal">
+      <p><i class="w3-text-light-grey"></i></p>
+      <p>Kasaragod</p>
+    </div>
+    <div class="w3-third w3-teal line grey">
+      <p><i class="w3-text-light-grey"></i></p>
+      <p>India</p>
+    </div>
+  </div>
+
+          <form action="/action_page.php" target="_blank">
+            <div class="w3-section">
+              <label>Name</label>
+              <input class="w3-input w3-border" type="text" name="Name" required="">
+            </div>
+            <div class="w3-section">
+              <label>Email</label>
+              <input class="w3-input w3-border" type="text" name="Email" required="">
+            </div>
+            <div class="w3-section">
+              <label>Message</label>
+              <input class="w3-input w3-border" type="text" name="Message" required="">
+            </div>
+            <button type="submit" class="w3-button w3-block w3-black w3-margin-bottom">Send Message</button>
+          </form>
+        </div>
+      </div>
+      <div class="parallax"></div>
+    
+      <!-- Footer -->
+      <footer class="w3-container w3-grey sticky footer1"> 
+        
+        <div class="w3-row-padding"> 
+         
+        <div class="w3-third position">
+          <h5 class="center">Saifuddin</h5>
+          <p class="center">Raihana Manzil,Kadangod PO Kalanad<br>Kasaragod, Kerala, India 671317</p>
+          <div class="in"><a href="https://www.linkedin.com/in/saifuddin-82b430189/" title="LinkedIn"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></div>
+          <div class="fb"><a href="https://www.facebook.com/saifudeen.seyyu" title="Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
+          <div class="ig"><a href="https://www.instagram.com/saiffuu__/" title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+          </div>
+        
+          <div class="w3-third place">
+            <p id="date"></p>
+            <p id="month"></p>
+            <p id="year"></p>
+          </div>
+        </div>
+      </footer>
+      
+      <div class="w3-black w3-center w3-padding-24 power">Powered by <a href="https://www.coursera.org/programs/government-college-of-engineering-kannur-on-coursera-lon5r?adgroupid=69008537437&adpostion=&campaignid=1776545273&creativeid=343305879523&device=c&devicemodel=&gclid=CjwKCAjwmMX4BRAAEiwA-zM4JhSXL9vEmbk66kvORTw0OUWmmHV53ZIWxsZiWBgM6YW8LmFalz28CBoCMCUQAvD_BwE&hide_mobile_promo=&keyword=coursera%2Bcourse%2Blist&matchtype=b&network=g&utm_content=94-BrandedSearch-IN&utm_medium=sem&utm_source=gg" title="COURSERA.ORG" target="_blank" class="w3-hover-opacity">Coursera.org</a></div>
+    
+    <!-- End page content -->
+    </div>
+    
+    <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("myOverlay").style.display = "block";
+    }
+     
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+      document.getElementById("myOverlay").style.display = "none";
+    }
+    
+    // Modal Image Gallery
+    function onClick(element) {
+      document.getElementById("img01").src = element.src;
+      document.getElementById("modal01").style.display = "block";
+      var captionText = document.getElementById("caption");
+      captionText.innerHTML = element.alt;
+    }
+    
+    var d = new Date();
+    document.getElementById("date").innerHTML = d.getDate();
+
+    var d = new Date();
+    var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    document.getElementById("month").innerHTML = months[d.getMonth()];
+
+    var d = new Date();
+    document.getElementById("year").innerHTML = d.getFullYear();
+    
+    </script>
+    
+    
+    
+    </body></html>
